@@ -3,9 +3,19 @@ import './App.css';
 
 function App() {
   return (
+
     <div className="App">
+      <div class="nav-bar">
+        <div class="nav-element">1</div>
+        <div class="nav-element">2</div>
+        <div class="nav-element">3</div>
+        <div class="nav-element">4</div>
+      </div>
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <h1 class="header-animation">Animation</h1>
         <p>
           Amplify React App
         </p>
