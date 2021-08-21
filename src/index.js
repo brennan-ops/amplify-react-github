@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import bodyPanel from './bodyPanel';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
+
+
     <App />
+    {/* <bodyPanel /> */}
+
   </React.StrictMode>,
   document.getElementById('root')
 );
